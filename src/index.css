@@ -15,19 +15,32 @@ code {
   background-color: rgba(136, 136, 136, 0.116);
   padding: 10px;
   border: none;
-  width: 100%;
+  width: auto;
   cursor: pointer;
+  box-sizing: content-box;
+  margin-top: auto; 
 }
+
 
 h1{
   text-align: center;
 }
 
-nav{
+#nav{
   display: flex;
-  width: 80vw;
-  justify-content: flex-start;
+  width: auto;
+  height: 5vh;
+  justify-content: flex-end;
   padding: 1rem;
+  margin: auto;
+  background-color: rgb(238, 238, 238);
+}
+
+.links_nav{
+  justify-content: end;
+  margin: 10px;
+  margin-top: auto;
+  justify-content: space-between;
 }
 
 a{
@@ -119,4 +132,11 @@ tr:nth-child(even) {
 }
 .dark > a {
   color: white;
+}
+.image_doctor {
+  width: 100%;
+}
+
+.division_footer{
+  background-color: red;
 }
