@@ -20,7 +20,7 @@ const Card = ({ name, username, id }) => {
         <p>{username}</p>
         <p>{id}</p>
         </Link>
-        <button onClick={addFav} disabled={isFavorite} className="favButton">Add fav</button>
+        <button onClick={addFav} disabled={isFavorite} className="favButton">⭐ Add fav ⭐</button>
     </div>
   );
 };

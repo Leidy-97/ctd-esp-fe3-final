@@ -13,10 +13,20 @@ const Detail = () => {
   return (
     <div className={state.theme}>
       <h1>Detail Dentist id </h1>
-      <p>name: {dentist.name}</p>
-      <p>email: {dentist.email}</p>
-      <p>phone: {dentist.phone}</p>
-      <p>website: {dentist.website}</p>
+      <table>
+      <tr>
+        <th scope="col">Name</th>
+        <th scope="col">email</th>
+        <th scope="col">phone</th>
+        <th scope="col">website</th>
+      </tr>
+      <tr>
+        <th scope="row">{dentist.name}</th>
+        <td>{dentist.email}</td>
+        <td>{dentist.phone}</td>
+        <td>{dentist.website}</td>
+      </tr>
+      </table>
     </div>
   )
 }
