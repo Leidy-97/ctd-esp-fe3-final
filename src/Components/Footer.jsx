@@ -3,7 +3,7 @@ import React from 'react'
 const Footer = () => {
   return (
     <footer>
-        <p>Powered by</p>
+        <p className='text_footer'>Powered by</p>
         <img src="./images/DH.png" alt='DH-logo' />
       <div>
         <img src="./images/ico-facebook.png" alt="Facebook_icon" />

@@ -50,6 +50,11 @@ h1{
   
 }
 
+.dark.links_nav{
+
+    color: white;
+}
+
 a{
   color: #000;
   text-decoration: none;
@@ -75,10 +80,13 @@ footer {
 footer > img{
   width: 200px;
   margin: 0;
+  
 }
 footer > p{
   margin: 0;
   padding-top: 0.7rem;
+
+  
 }
 
 footer > div > img { 
@@ -87,6 +95,7 @@ footer > div > img {
   margin-left: 7px;
   background-color: #000;
   border-radius: 3%;
+  justify-content:flex-end ;
   
 }
 
@@ -104,9 +113,15 @@ form{
   justify-content: space-around;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   width: 200px;
   padding: 0.5rem 0.5rem 0 0.5rem;
   border: 0.5px solid rgb(136, 136, 136);
+}
+
+.card.p{
+  align-items: center;
+  text-align: center;
 }
 
 .card:hover{
