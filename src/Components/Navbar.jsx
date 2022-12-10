@@ -18,7 +18,7 @@ return (
           <Link to="/favs">Favs</Link>
       </div>
       {/* Deberan implementar ademas la logica para cambiar de Theme con el button */}
-      <button  className="favButton" onClick={() => dispatch({type: "theme"})}>🌓</button>
+      <button  className="button_theme" onClick={() => dispatch({type: "theme"})}>🌓</button>
     </nav>
   )
 }

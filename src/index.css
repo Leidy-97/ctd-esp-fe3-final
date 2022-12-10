@@ -12,15 +12,23 @@ code {
     monospace;
 }
 .favButton{
-  background-color: rgba(136, 136, 136, 0.116);
+  background-color:rgb(228, 226, 226);
   padding: 10px;
-  border: none;
+  border:none;
   width: auto;
   cursor: pointer;
   box-sizing: content-box;
   margin-top: auto; 
 }
 
+.button_theme{
+  padding: 10px;
+  width: auto;
+  cursor: pointer;
+  box-sizing: content-box;
+  margin-top: auto; 
+  border-radius: 50%;
+}
 
 h1{
   text-align: center;
